@@ -85,7 +85,7 @@ height:5px;
 border-radius:3px;
 transform: rotate(45deg);
     position: absolute;
-    top: 26px;
+    top: 23px;
     right: 9px;
 }
 
@@ -97,7 +97,7 @@ height:5px;
 border-radius:3px;
 transform: rotate(-45deg);
     position: absolute;
-    top: 26px;
+    top: 23px;
     right: 9px;
 }
 }

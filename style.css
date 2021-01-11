@@ -73,7 +73,7 @@ width:100%;
     -o-transition: .075s;
     transition: .075s;
     position: absolute;
-    top: -5px;
+    top: 0px;
     right: 0px;
 }
 

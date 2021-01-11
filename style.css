@@ -15,7 +15,7 @@ width:100%;
 /********************
 	telephone
 *********************/
-@media (min-width:20px) and (max-width: 720px){
+@media (min-width:20px) and (max-width: 1520px){
 
 .navmobile{
     position: absolute;
@@ -60,5 +60,44 @@ width:100%;
     position: relative;
     top: -1.5px;
 }
+.navclose button {
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    background: 0 0;
+    width: 50px;
+    color: rgba(255,255,255,.8);
+    height: 50px;
+    border-left: 1px solid rgba(255,255,255,.05);
+    -webkit-transition: .075s;
+    -o-transition: .075s;
+    transition: .075s;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
 
+.b1{
+display:block;
+background:red;
+width:30px;
+height:5px;
+border-radius:3px;
+transform: rotate(45deg);
+    position: absolute;
+    top: 26px;
+    right: 9px;
+}
+
+.b2{
+display:block;
+background:red;
+width:30px;
+height:5px;
+border-radius:3px;
+transform: rotate(-45deg);
+    position: absolute;
+    top: 26px;
+    right: 9px;
+}
 }

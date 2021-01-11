@@ -1,0 +1,64 @@
+body {
+ font-family: $body-font;
+/*background: linear-gradient(15deg, #59B7F0, #e66465, #FF2626);*/
+/*background: linear-gradient(15deg,#c0c0c0, #414141 55%);*/
+  background:#333336;
+background-repeat: no-repeat;
+/*background-size: cover;*/
+
+height:100vh;
+width:100%;
+/*filter:blur (500vh);*/
+}
+
+
+/********************
+	telephone
+*********************/
+@media (min-width:20px) and (max-width: 1800px){
+
+.navmobile{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background: transparent/*#000000*/;
+    -webkit-box-shadow: 10px 0 10px rgba(0,0,0,.1);
+    box-shadow: 10px 0 10px rgba(0,0,0,.1);
+}
+
+.navheader {
+    width: 100%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: -.05em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 0 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.navclose{
+    border: none;
+    font-size: 30px;
+    background: 0 0;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.navmobile .navheader h2 {
+    margin: 0 auto 0 0;
+    color: #ff8400;
+    position: relative;
+    top: -1.5px;
+}
+
+}
